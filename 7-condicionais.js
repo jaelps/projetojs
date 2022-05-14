@@ -17,16 +17,13 @@ if (idadeComprador >= 18){
 
     console.log("Comprador maior de idade");
     listaDeDestinos.splice(1,1);//removendo item
-}else{
-    //acompanhado pode viajar
-    if(estaAcompanhada){
+}else if(estaAcompanhada){
         console.log("Comprador esta acompanhado");
         listaDeDestinos.splice(1,1);
     }else{
         console.log("Menor idade não altorizado venda");
     }
-    //console.log("Menor idade não altorizado venda")
-}
+
 
 console.log(listaDeDestinos);
 
