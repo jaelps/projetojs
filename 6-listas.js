@@ -14,3 +14,7 @@ listaDeDestinos.push(`Curitiba`); //adicionado item
 console.log("Destinos possíveis");
 //console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1);//contagem de lisa se inicia de 0;
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1]);
