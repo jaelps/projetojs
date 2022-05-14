@@ -36,3 +36,11 @@ if(podeComprar && destinoExiste){
 }else{
     console.log("Desculpe tivemos um erro!");
 }
+
+for(let cont = 0 ; contador<3 ; cont ++){
+    if(listaDeDestinos[contador] == destino){
+        console.log("Destino confirmado")
+        destinoExiste = true;
+        //break;
+    }
+}
